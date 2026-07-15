@@ -1,21 +1,21 @@
 # Architect Agent — Launch Documentation
 
 ## Launch Readiness Snapshot
-- Repo: `architect-agent`
-- Default branch: `main`
-- License: MIT
-- Purpose: standalone architecture/design agent scaffold
+- **Repo:** `architect-agent`
+- **Default branch:** `main`
+- **License:** MIT
+- **Purpose:** Standalone architecture and design agent scaffold.
 
 ## Evidence
-- README present
-- No tracked `.env` files
+- `README.md` present.
+- No tracked `.env` files.
 
 ## Gaps
-- SECURITY.md missing
-- No automated tests/CI
-- README can be tightened into customer-facing install flow
+- `SECURITY.md` incomplete; needs review and expansion.
+- No automated tests or CI.
+- `README.md` should be expanded into a customer-facing install flow.
 
 ## Actions
-- Add SECURITY.md
-- Add `.env.example` if runtime config grows
-- Add CI for README/markdown lint before launch
+- Review and expand `SECURITY.md`.
+- Add `.env.example` only if runtime config grows.
+- Add CI for README/markdown lint checks before launch.

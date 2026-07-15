@@ -1,10 +1,10 @@
 # Architect Agent — Verification Record
 
 ## Verified
-- README present
-- No tracked `.env` files
+- `README.md` present.
+- No tracked `.env` files.
 
 ## Gaps
-- No SECURITY.md
-- No CI
-- No tests present
+- `SECURITY.md` incomplete; verify policy completeness and contact details.
+- No CI configured.
+- No tests present.

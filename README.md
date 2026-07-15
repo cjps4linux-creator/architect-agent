@@ -1,6 +1,6 @@
-# architect-agent
+# Architect Agent
 
-Architect agent placeholder repository.
+Standalone architecture and design agent scaffold.
 
 ## Status
 Placeholder
