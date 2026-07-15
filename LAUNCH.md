@@ -1,21 +1,32 @@
 # Architect Agent — Launch Documentation
 
 ## Launch Readiness Snapshot
-- **Repo:** `architect-agent`
-- **Default branch:** `main`
-- **License:** MIT
-- **Purpose:** Standalone architecture and design agent scaffold.
 
-## Evidence
+| Field | Value |
+| --- | --- |
+| Repo | `architect-agent` |
+| Default branch | `main` |
+| License | MIT |
+| Commercial baseline | CI, `CONTRIBUTING.md`, `SECURITY.md`, `LAUNCH.md`, `VERIFICATION.md` |
+| Purpose | Standalone architecture and design agent scaffold |
+
+## Verified
 - `README.md` present.
 - No tracked `.env` files.
+- `SECURITY.md` present with contact path and hardening notes.
+- `.github/workflows/ci.yml` present.
 
-## Gaps
-- `SECURITY.md` incomplete; needs review and expansion.
-- No automated tests or CI.
-- `README.md` should be expanded into a customer-facing install flow.
+## Launch Gates
+- [ ] CI workflow green on `main` before release tag
+- [ ] Branch protection and required status checks enabled on `main`
+- [ ] GitHub secret scanning and vulnerability alerts enabled
+- [ ] Agent contract schema reviewed for customer use before sale or distribution
 
-## Actions
-- Review and expand `SECURITY.md`.
-- Add `.env.example` only if runtime config grows.
-- Add CI for README/markdown lint checks before launch.
+## Release Workflow
+1. Validate contract schema and README install flow against a test agent build.
+2. Cherry-pick approved wording and schema updates into a release branch.
+3. Tag a release with semver and attach validated example agent artifacts.
+4. Rotate or revoke any shared example credentials if included in release assets.
+
+## Support
+- Support contact: `conradcjwilson0@gmail.com`
