@@ -6,7 +6,7 @@ Architect Agent turns a natural-language requirement into a structured system de
 
 Built by Conrad CJ Wilson.
 
-## What It Demonstrates
+## What It Does
 
 | Capability | Implementation |
 |---|---|
