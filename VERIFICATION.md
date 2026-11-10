@@ -1,4 +1,4 @@
-# Architect Agent — Verification Record
+# Architect Agent  -  Verification Record
 
 ## Verified
 - `README.md` present.
