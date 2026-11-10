@@ -2,7 +2,7 @@
 
 Standalone architecture and design agent scaffold for the Hermes ecosystem.
 
-Architect Agent turns a natural-language requirement into a structured system design: component boundaries, interfaces, data flow, failure modes, and a recommended technology selection. It is built to the Hermes Agent Template contract — one responsibility, explicit interfaces, bounded tool permissions, and observable behavior.
+Architect Agent turns a natural-language requirement into a structured system design: component boundaries, interfaces, data flow, failure modes, and a recommended technology selection. It is built to the Hermes Agent Template contract  -  one responsibility, explicit interfaces, bounded tool permissions, and observable behavior.
 
 Built by Conrad CJ Wilson.
 
@@ -51,7 +51,7 @@ python scripts/validate_agent_contract.py agents/architect-agent/contract.md
 
 ## License
 
-MIT — use, modify, and ship freely.
+MIT  -  use, modify, and ship freely.
 
 **Author:** Conrad CJ Wilson
 **GitHub:** https://github.com/cjps4linux-creator

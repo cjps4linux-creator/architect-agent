@@ -1,4 +1,4 @@
-# Architect Agent — Launch Documentation
+# Architect Agent  -  Launch Documentation
 
 ## Launch Readiness Snapshot
 
