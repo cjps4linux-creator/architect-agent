@@ -2,7 +2,7 @@
 
 This repo is a documentation/agent-spec package (no runtime app). These tests
 validate the contract a reviewer cares about: required docs exist, the README
-defines the agent's purpose, and no placeholder test scaffold remains.
+defines the agent's purpose, and no [content pending] test scaffold remains.
 """
 from pathlib import Path
 
@@ -25,9 +25,9 @@ def test_no_placeholder_test_left_behind():
     for f in tests_dir.glob("*.py"):
         if f.name == "__init__.py":
             continue
-        assert "test_placeholder" not in f.name, f"placeholder test still present: {f.name}"
+        assert "test_placeholder" not in f.name, f"[content pending] test still present: {f.name}"
         body = f.read_text(encoding="utf-8")
         for line in body.splitlines():
             stripped = line.strip()
             if stripped == "assert True" or stripped.startswith("def test_placeholder"):
-                assert False, f"placeholder assert found in {f.name}: {stripped}"
+                assert False, f"[content pending] assert found in {f.name}: {stripped}"
